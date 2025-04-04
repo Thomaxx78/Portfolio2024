@@ -1,0 +1,36 @@
+
+.roles {
+    margin-top: 300px;
+}
+
+.role {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    padding: 50px 0;
+}
+.role::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #333235;
+}
+.role__img {
+    height: 300px;
+    width: 225px;
+    background-color: white;
+}
+.role__content {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 25px;
+}
+
+.role__title {
+    font-size: 48px;
+    font-weight: bolder;
+}

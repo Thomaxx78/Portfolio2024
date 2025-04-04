@@ -1,0 +1,27 @@
+.experience {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.experience-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -webkit-mask-image: radial-gradient(circle at 85% 15%, transparent 100px, black 101px);
+  mask-image: radial-gradient(circle at 80% 12rem, transparent 100px, black 101px);
+}
+
+.experience-content::before {
+  content: '';
+  position: absolute;
+  top: 12rem;
+  right: 20%;
+  width: 220px;
+  height: 220px;
+  transform: translate(50%, -50%);
+  border-radius: 50%;
+  border: 110px solid rgb(140, 140, 140);
+  background-color: red;
+  pointer-events: none;
+}
