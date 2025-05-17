@@ -13,7 +13,7 @@
 }
 
 .experience-content::before {
-  content: '';
+  content: none;
   position: absolute;
   top: 12rem;
   right: 20%;

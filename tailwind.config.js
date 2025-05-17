@@ -12,7 +12,9 @@ module.exports = {
       'dark-blue': '#030818'
     },
     extend: {
-
+      animation: {
+        'spin-slow': 'spin 10s linear infinite',
+      },
     },
   },
   plugins: [],

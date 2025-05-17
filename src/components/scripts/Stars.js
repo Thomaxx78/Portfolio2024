@@ -11,7 +11,7 @@ const Star = ({ position }) => {
         borderRadius: '50%',
         left: position.x,
         top: position.y,
-        pointerEvents: 'none', // Pour éviter les interactions avec les étoiles
+        pointerEvents: 'none',
         zIndex: -1
       }}
     ></div>

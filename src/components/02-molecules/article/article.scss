@@ -1,0 +1,12 @@
+.presentation {
+    font-size: 30px;
+    .description {
+        font-size: 25px;
+    }
+    @media (width >= 48rem) {
+        font-size: 25px;
+        .description {
+            font-size: 20px;
+        }
+    }
+}

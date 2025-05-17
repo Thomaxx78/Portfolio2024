@@ -9,7 +9,7 @@ class Experience extends Component {
         <div className="w-full h-20 bg-gradient-to-b from-transparent to-whit absolute top-0 left-0" />
           <div className="experience">
             <div className="experience-content bg-blue min-h-screen p-20 rounded-t-[3rem] shadow-2xl">
-            <AboutMe />
+            {/* <AboutMe /> */}
           </div>
         </div>
       </section>

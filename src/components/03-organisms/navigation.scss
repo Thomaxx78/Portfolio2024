@@ -1,0 +1,38 @@
+.navigation:hover {
+    .nav-item {
+        opacity: 0.2;
+        transition: all 0.3s ease-in-out;
+    }
+    .nav-item:hover {
+        opacity: 1;
+        transition: all 0.3s ease-in-out;
+    }
+}
+
+.nav-item {
+    transition: all 0.3s ease-in-out;
+}
+
+.navigation {
+    height: fit-content;
+    .navigation-desktop {
+        display: none;
+        @media (width >= 48rem) {
+            display: flex;
+        }
+    }
+    .burger {
+        display: block;
+        padding: 0;
+        @media (width >= 48rem) {
+            display: none;
+        }
+        .burger-line {
+            width: 30px;
+            height: 3px;
+            background-color: #ffffff;
+            margin: 6px 0;
+            transition: 0.4s;
+        }
+    }
+}
