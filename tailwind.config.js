@@ -15,6 +15,9 @@ module.exports = {
       animation: {
         'spin-slow': 'spin 10s linear infinite',
       },
+      height: {
+        'screen-dvh': '100dvh'
+      }
     },
   },
   plugins: [],

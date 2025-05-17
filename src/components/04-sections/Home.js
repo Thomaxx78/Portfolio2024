@@ -75,7 +75,7 @@ class Home extends Component {
 
   render() {
     return (
-      <section className="home h-screen sticky top-0 overflow-hidden z-0 relative">
+      <section className="home h-screen h-screen-dvh sticky top-0 overflow-hidden z-0 relative">
         <canvas id="aestheticCanvas" className="absolute inset-0 w-full h-full -z-10" />
         <Model3D modelUrl="/models/oceanic.glb" scrollProgress={this.state.scrollProgress} />
         <Hero />
